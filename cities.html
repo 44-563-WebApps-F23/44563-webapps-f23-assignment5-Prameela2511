@@ -13,31 +13,26 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
-<header><b>Visit cities with Pathuri Prameela.</b></header>
-<nav class="navbar-expand-md navbar-light and bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">A Few Cities</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <br>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <br>
-        <li class="nav-item">
-          <a class="nav-link" href="basic.html">Basic html page</a>
-        </li>
-        <br>
-        <li class="nav-item">
-          <a class="nav-link" href="advanced.html">Advanced html page</a>
-        </li>
+  <nav class="navbar navbar-expand-md navbar-light bg-light"
+  style="font-family:'Times New Roman', Times, serif; font-size: larger; font-size: larger;">
+  <a class="navbar-brand" href="cities.html">A Few Cities</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#InsectNavbarContent"
+      aria-controls="InsectNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggle-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+              <a class="nav-link" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
       </ul>
-    </div>
   </div>
 </nav>
+<header><b>Visit cities with Pathuri Prameela.</b></header>
 <div class="container">
     <div class="row">
         <div class="col-sm-2">P</div>
@@ -55,10 +50,7 @@
             <div class="col-md">Utter pradesh</div>
             <div class="col-md">Rhode Island</div>
         </div>
-
-
-    
-</div>
+      </div>
 
 <p>
     Second row breaks first, because we are using <em>col-md</em> for the second row. when we resize the screen 
@@ -68,12 +60,14 @@
 <br>
 
 <div>
+  <h4>Responsive</h4>
   <img src="pondicherry.jpg" class="img-fluid" alt="pondicherry" width="400" height="450">
   <img src="Uttar Pradesh.png" class="img-fluid" alt="uttar Pradesh" width="400" height="450">
   <img src="rhode.jpg" class="img-fluid" alt="Rhode Island" width="400" height="450">
 </div>
 <br>
 <div>
+  <h4>Thumbnail</h4>
   <img src="pondicherry.jpg" class="img-thumbnail" alt="pondicherry" width="400" height="450">
   <img src="Uttar Pradesh.png" class="img-thumbnail" alt="uttar Pradesh" width="400" height="450">
   <img src="rhode.jpg" class="img-thumbnail" alt="Rhode Island" width="400" height="450">
@@ -81,7 +75,7 @@
 
 <br>
 <table class="table table-hover table-striped table-sm table-border table-responsive caption-top">
-<caption ><b>Table city</b></caption>
+<caption ><b>The below table has cities,rivers and trees</b></caption>
 <thead>
       <tr class="table-secondary">
             <th scope="col">Letter</th>
@@ -167,8 +161,8 @@
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputCity" class="form-label">Enter your city</label>
-    <input type="text" class="form-control" id="exampleInputCity1">
+    <label for="exampleInputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="exampleInputCity1" placeholder="Enter your city">
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -176,5 +170,55 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card">
+              <img src="pondicherry.jpg" class="card-img-top" alt="1st City">
+              <div class="card-body">
+                  <h4 class="card-title">Pondicherry</h4>
+                  <p class="card-text">Puducherry (the official name was changed from Pondicherry in 2006) not only 
+                    fascinates you, it makes you fall in love - with its colonial structures, 
+                    seafront promenades, spiritual havens, tree-lined boulevards, 
+                    unexplored and pristine beaches, and enchanting backwaters.
+                     It is also known for textiles, silk and traditional doll-making as well 
+                     as high quality pottery, handmade paper, leather and aromatics. And of course, the never-to-be-forgotten French connection.</p>
+                  <a href="https://en.wikipedia.org/wiki/Pondicherry" target="_blank" class="btn btn-primary">To see-click here</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="rhode.jpg" class="card-img-top" alt="2nd Image">
+              <div class="card-body">
+                  <h4 class="card-title">Rhode Island</h4>
+                  <p class="card-text">Rhode Island is by far the smallest US state by area.
+                     It is only about 48 miles long and 37 miles wide. Only Delaware is comparable,
+                      but even Delaware is almost twice the size of Rhode Island. 
+                      Furthermore, about one-third of Rhode Island is water, making the land available even smaller.</p>
+                  <a href="https://en.wikipedia.org/wiki/Rhode_Island" target="_blank" class="btn btn-primary">To see-click here</a>                
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card">
+              <img src="Uttar Pradesh.png" class="card-img-top" alt="3rd City">
+              <div class="card-body">
+                  <h4 class="card-title">uttar Pradesh</h4>
+                  <p class="card-text">Uttar Pradesh is known for its rich culture and tradition. 
+                    It is home to Ayodhya and Mathura birthplace of Lord Rama, 
+                    Lord Krishna and Bhgwan Parshuram respectively. Uttar Pradesh attracts many national and international tourists.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Uttar_Prade" target="_blank" class="btn btn-primary">To see-click here</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> 
 </body>
 </html>
